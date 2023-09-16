@@ -10,7 +10,7 @@ function Branding(props) {
     <div className="branding-container">
       <div className="branding-info">
         <div className="branding-text">
-          <h1>we also do branding from scratch!</h1>
+          <h1>We also do branding from scratch!</h1>
         </div>
         <div className="branding-button">
           <Button text={"contact us"} work={scroll} />

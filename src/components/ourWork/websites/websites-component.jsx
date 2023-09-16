@@ -38,7 +38,7 @@ function WebsitesComponent(props) {
   };
 
   return (
-    <div className="UX UI">
+    <div className="website">
       <Header header="UX UI" des="On Wordpress, Elementor, Wix, html - css" />
       <div className="website-examples">
         <Example
