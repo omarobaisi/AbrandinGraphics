@@ -244,7 +244,7 @@ function Services(props) {
     <div className="services-container">
       <div className="service-header">
         <h1>what are we doing?</h1>
-        <div>We design everyting.</div>
+        <div>We design everything.</div>
       </div>
       <div className="">
         <div className="img-1920">
