@@ -1,278 +1,283 @@
 .branding-container {
-    width: 100%;
-    height: 650px;
-    background-image: url('./img/Desktop/1920w/RectangleGreenLines.png');
-    background-size: cover;
-    background-position: right;
-    .branding-sticker {
-        position: relative;
-        img {
-            position: absolute;
-            width: 198px;
-            height: 198px;
-            top: 155px;
-            right: 275px;
-        }
+  width: 100%;
+  height: 650px;
+  background-image: url("./img/Desktop/1920w/RectangleGreenLines.png");
+  background-size: cover;
+  background-position: right;
+  .branding-sticker {
+    position: relative;
+    img {
+      position: absolute;
+      width: 198px;
+      height: 198px;
+      top: 155px;
+      right: 275px;
     }
-    .branding-info {
-        h1 {
-            font-family: 'Poller One';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 48px;
-            line-height: 70px;
-            text-align: center;
-            color: #F1F2CF;
-            padding-top: 276px;
-            margin: 0;
-        }
-        .branding-button {
-            text-align: center;
-            padding-top: 45px;
-        }
+  }
+  .branding-info {
+    h1 {
+      font-family: "Roc Grotesk 800";
+      font-style: normal;
+      font-size: 53px;
+      line-height: 70px;
+      text-align: center;
+      color: #ffcf79;
+      padding-top: 276px;
+      margin: 0;
     }
+    .branding-button {
+      text-align: center;
+      padding-top: 45px;
+    }
+  }
 }
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-    .branding-container {
-        background-image: url('./img/Macbook/1728w/RectangleGreenLines.png');
-        height: 585.03px;
-        .branding-sticker {
-            img {
-                width: 187px;
-                height: 187px;
-                top: 135px;
-                right: 245px;
-            }
-        }
-        .branding-info {
-            h1 {
-                font-size: 43.2025px;
-                line-height: 63px;
-                padding-top: 248px;
-            }
-            .branding-button {
-                padding-top: 70px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/Macbook/1728w/RectangleGreenLines.png");
+    height: 585px;
+    .branding-sticker {
+      img {
+        width: 187px;
+        height: 187px;
+        top: 135px;
+        right: 245px;
+      }
     }
+    .branding-info {
+      h1 {
+        font-size: 45px;
+        line-height: 63.004px; /* 140.008% */
+        letter-spacing: 1.35px;
+        padding-top: 250px;
+      }
+      .branding-button {
+        padding-top: 53px;
+      }
+    }
+  }
 }
 
 // MacBook Pro 14
 @media (max-width: 1700px) {
-    .branding-container {
-        background-image: url('./img/Macbook/1512w/RectangleGreenLines.png');
-        height: 512.07px;
-        .branding-sticker {
-            img {
-                width: 165px;
-                height: 165px;
-                top: 120px;
-                right: 215px;
-            }
-        }
-        .branding-info {
-            h1 {
-                font-size: 37.8147px;
-                line-height: 55px;
-                padding-top: 217.43px;
-            }
-            .branding-button {
-                padding-top: 70px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/Macbook/1512w/RectangleGreenLines.png");
+    height: 512.07px;
+    .branding-sticker {
+      img {
+        width: 165px;
+        height: 165px;
+        top: 120px;
+        right: 215px;
+      }
     }
+    .branding-info {
+      h1 {
+        font-size: 38px;
+        line-height: 55.146px; /* 145.122% */
+        letter-spacing: 1.14px;
+        padding-top: 218px;
+      }
+      .branding-button {
+        padding-top: 52.36px;
+      }
+    }
+  }
 }
 
 // Desktop
 @media (max-width: 1500px) {
-    .branding-container {
-        background-image: url('./img/Desktop/1440w/RectangleGreenLines.png');
-        height: 488.12px;
-        .branding-sticker {
-            img {
-                width: 155px;
-                height: 155px;
-                top: 112px;
-                right: 205px;
-            }
-        }
-        .branding-info {
-            h1 {
-                font-size: 36.046px;
-                line-height: 53px;
-                padding-top: 207.26px;
-            }
-            .branding-button {
-                padding-top: 60px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/Desktop/1440w/RectangleGreenLines.png");
+    height: 488.12px;
+    .branding-sticker {
+      img {
+        width: 155px;
+        height: 155px;
+        top: 112px;
+        right: 205px;
+      }
     }
+    .branding-info {
+      h1 {
+        font-size: 36px;
+        line-height: 53px;
+        letter-spacing: 1.08px;
+        padding-top: 208px;
+      }
+      .branding-button {
+        padding-top: 50px;
+      }
+    }
+  }
 }
 
 // MacBook Pro air
 @media (max-width: 1400px) {
-    .branding-container {
-        background-image: url('./img/Macbook/1280w/RectangleGreenLines.png');
-        height: 433.71px;
-        .branding-sticker {
-            img {
-                width: 138px;
-                height: 138px;
-                top: 100px;
-                right: 185px;
-            }
-        }
-        .branding-info {
-            h1 {
-                font-size: 32.0277px;
-                line-height: 47px;
-                padding-top: 184.16px;
-            }
-            .branding-button {
-                padding-top: 50px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/Macbook/1280w/RectangleGreenLines.png");
+    height: 433.71px;
+    .branding-sticker {
+      img {
+        width: 138px;
+        height: 138px;
+        top: 100px;
+        right: 185px;
+      }
     }
+    .branding-info {
+      h1 {
+        font-size: 32px;
+        line-height: 46.707px; /* 145.96% */
+        letter-spacing: 0.96px;
+        padding-top: 184px;
+      }
+      .branding-button {
+        padding-top: 45.71px;
+      }
+    }
+  }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1200px) {
-    .branding-container {
-        background-image: url('./img/Tablet/1024w/RectangleGreenLines.png');
-        height: 487.75px;
-        .branding-sticker {
-            img {
-                width: 150px;
-                height: 150px;
-                top: 95px;
-                right: 176px;
-            }
-        }
-        .branding-info {
-            width: 45%;
-            margin: auto;
-            h1 {
-                font-size: 30px;
-                line-height: 42px;
-                padding-top: 170px;
-            }
-            .branding-button {
-                padding-top: 60px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/Tablet/1024w/RectangleGreenLines.png");
+    height: 487.75px;
+    .branding-sticker {
+      img {
+        width: 150px;
+        height: 150px;
+        top: 95px;
+        right: 176px;
+      }
     }
+    .branding-info {
+      width: 35%;
+      margin: auto;
+      h1 {
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0.96px;
+        padding-top: 173px;
+      }
+      .branding-button {
+        padding-top: 37px;
+      }
+    }
+  }
 }
 
 // IPad Pro 11
 @media (max-width: 1000px) {
-    .branding-container {
-        background-image: url('./img/Tablet/834w/RectangleGreenLines.png');
-        height: 504px;
-        .branding-sticker {
-            img {
-                width: 150px;
-                height: 150px;
-                top: 105px;
-                right: 82px;
-            }
-        }
-        .branding-info {
-            width: 49%;
-            margin: auto;
-            h1 {
-                font-size: 30px;
-                line-height: 42px;
-                padding-top: 184px;
-            }
-            .branding-button {
-                padding-top: 60px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/Tablet/834w/RectangleGreenLines.png");
+    height: 504px;
+    .branding-sticker {
+      img {
+        width: 150px;
+        height: 150px;
+        top: 105px;
+        right: 82px;
+      }
     }
+    .branding-info {
+      width: 40%;
+      margin: auto;
+      h1 {
+        font-size: 32px;
+        line-height: 42px; /* 131.25% */
+        letter-spacing: 0.96px;
+        padding-top: 185px;
+      }
+      .branding-button {
+        padding-top: 35px;
+      }
+    }
+  }
 }
 
 // Iphone 14 Pro Max
 @media (max-width: 650px) {
-    .branding-container {
-        background-image: url('./img/iPhone/430w/RectangleGreenLines.png');
-        height: 373px;
-        .branding-sticker {
-            img {
-                width: 150px;
-                height: 150px;
-                top: 325px;
-                right: 45px;
-            }
-        }
-        .branding-info {
-            width: 55%;
-            margin: auto;
-            h1 {
-                font-size: 26px;
-                line-height: 36px;
-                padding-top: 102px;
-            }
-            .branding-button {
-                padding-top: 35px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/iPhone/430w/RectangleGreenLines.png");
+    height: 373px;
+    .branding-sticker {
+      img {
+        width: 150px;
+        height: 150px;
+        top: 325px;
+        right: 45px;
+      }
     }
+    .branding-info {
+      width: 55%;
+      margin: auto;
+      h1 {
+        font-size: 25px;
+        line-height: 36px;
+        padding-top: 102px;
+      }
+      .branding-button {
+        padding-top: 18px;
+      }
+    }
+  }
 }
 
 // Iphone 14
 @media (max-width: 390px) {
-    .branding-container {
-        background-image: url('./img/iPhone/390w/RectangleGreenLines.png');
-        height: 373px;
-        .branding-sticker {
-            img {
-                width: 150px;
-                height: 150px;
-                top: 325px;
-                right: 27px;
-            }
-        }
-        .branding-info {
-            width: 60%;
-            margin: auto;
-            h1 {
-                font-size: 26px;
-                line-height: 36px;
-                padding-top: 102px;
-            }
-            .branding-button {
-                padding-top: 35px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/iPhone/390w/RectangleGreenLines.png");
+    height: 373px;
+    .branding-sticker {
+      img {
+        width: 150px;
+        height: 150px;
+        top: 325px;
+        right: 27px;
+      }
     }
+    .branding-info {
+      width: 60%;
+      margin: auto;
+      h1 {
+        font-size: 25px;
+        line-height: 36px;
+        padding-top: 102px;
+      }
+      .branding-button {
+        padding-top: 18px;
+      }
+    }
+  }
 }
 
 // Android Large
 @media (max-width: 360px) {
-    .branding-container {
-        background-image: url('./img/Android/RectangleGreenLines.png');
-        height: 373px;
-        .branding-sticker {
-            img {
-                width: 150px;
-                height: 150px;
-                top: 325px;
-                right: 10px;
-            }
-        }
-        .branding-info {
-            width: 65%;
-            margin: auto;
-            h1 {
-                font-size: 26px;
-                line-height: 36px;
-                padding-top: 102px;
-            }
-            .branding-button {
-                padding-top: 30px;
-            }
-        }
+  .branding-container {
+    background-image: url("./img/Android/RectangleGreenLines.png");
+    height: 373px;
+    .branding-sticker {
+      img {
+        width: 150px;
+        height: 150px;
+        top: 325px;
+        right: 10px;
+      }
     }
+    .branding-info {
+      width: 65%;
+      margin: auto;
+      h1 {
+        font-size: 25px;
+        line-height: 36px;
+        padding-top: 102px;
+      }
+      .branding-button {
+        padding-top: 18px;
+      }
+    }
+  }
 }

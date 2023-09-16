@@ -1,192 +1,105 @@
 .landing {
-    background-color: black;
-    color: white;
-    .landing-examples {
-        .landing-pictures {
-            text-align: center;
-            .landing-mac {
-                width: 990px;
-                height: 1960.52px;
-            }
-        }
-        .landing-two-pictures {
-            display: flex;
-            justify-content: center;
-            margin-top: 246px;
-            .landing-pro {
-                img {
-                    width: 787.89px;
-                    height: 732px;
-                }
-                margin-right: 158.11px;
-            }
-            .landing-android {
-                img {
-                    width: 340.47px;
-                    height: 732px;
-                }
-            }
-            .landing-device {
-                font-family: 'Ploni ML v2 AAA';
-                font-style: normal;
-                font-weight: 300;
-                font-size: 15px;
-                line-height: 22px;
-                margin-bottom: 45px;
-            }
-        }
+  background-color: black;
+  color: white;
+  .landing-examples {
+    .landing-pictures {
+      text-align: center;
+      .landing-mac {
+        width: 990px;
+        height: 1960.52px;
+      }
     }
+    .landing-two-pictures {
+      display: flex;
+      justify-content: center;
+      gap: 84.28px;
+      .landing-device {
+        font-family: "Ploni ML v2 AAA";
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 45px;
+      }
+    }
+  }
 }
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-    .landing {
-        .landing-examples {
-            .landing-two-pictures {
-                margin-top: 110px;
-                .landing-pro {
-                    img {
-                        width: 787.89px;
-                        height: 732px;
-                    }
-                    margin-right: 183.75px;
-                }
-                .landing-device {
-                    font-size: 16px;
-                    line-height: 24px;
-                }
-            }
+  .landing {
+    .landing-examples {
+      .landing-two-pictures {
+        margin-top: 110px;
+        .landing-device {
+          font-size: 16px;
+          line-height: 24px;
         }
+      }
     }
-}
-
-// MacBook Pro 14
-@media (max-width: 1512px) {
-    .landing {
-        .landing-examples {
-            .landing-pictures {
-                .landing-mac {
-                    width: 876px;
-                    height: 1734.76px;
-                }
-            }
-            .landing-two-pictures {
-                margin-top: 130.81px;
-                .landing-pro {
-                    img {
-                        width: 785.74px;
-                        height: 730px;
-                    }
-                    margin-right: 63.26px;
-                }
-                .landing-android {
-                    img {
-                        width: 339.47px;
-                        height: 729.85px;
-                    }
-                }
-            }
-        }
-    }
-}
-
-// Desktop
-@media (max-width: 1440px) {
-    .landing {
-        .landing-examples {
-            .landing-two-pictures {
-                .landing-pro {
-                    margin-right: 61.9px;
-                }
-            }
-        }
-    }
+  }
 }
 
 // MacBook Pro air
 @media (max-width: 1280px) {
-    .landing {
-        .landing-examples {
-            .landing-two-pictures {
-                display: block;
-                text-align: center;
-                margin-top: 0;
-                .landing-pro {
-                    margin-top: 131px;
-                    margin-right: 0;
-                    img {
-                        width: 875.07px;
-                        height: 813px;
-                    }
-                }
-                .landing-android {
-                    margin-top: 131px;
-                    img {
-                        width: 339.47px;
-                        height: 729.85px;
-                    }
-                }
-            }
+  .landing {
+    .landing-examples {
+      .landing-two-pictures {
+        display: block;
+        text-align: center;
+        margin-top: 0;
+        .landing-art1 {
+          margin-top: 131px;
+          margin-right: 0;
         }
+        .landing-ar2 {
+          margin-top: 131px;
+        }
+      }
     }
+  }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    .landing {
-        .landing-examples {
-            .landing-pictures {
-                .landing-mac {
-                    width: 661px;
-                    height: 1308.99px;
-                }
-            }
-            .landing-two-pictures {
-                .landing-pro {
-                    margin-top: 101px;
-                    img {
-                        width: 664px;
-                        height: 616.9px;
-                    }
-                }
-                .landing-android {
-                    margin-top: 101px;
-                    img {
-                        width: 339.47px;
-                        height: 729.85px;
-                    }
-                }
-            }
+  .landing {
+    .landing-examples {
+      .landing-pictures {
+        .landing-mac {
+          width: 661px;
+          height: 1308.99px;
         }
+      }
+      .landing-two-pictures {
+        .landing-art1 {
+          margin-top: 101px;
+        }
+        .landing-ar2 {
+          margin-top: 101px;
+        }
+      }
     }
+  }
 }
 
 // Iphone 14 Pro Max
 @media (max-width: 700px) {
-    .landing {
-        .landing-examples {
-            .landing-pictures {
-                .landing-mac {
-                    width: 305px;
-                    height: 604px;
-                }
-            }
-            .landing-two-pictures {
-                .landing-pro {
-                    margin-top: 92.86px;
-                    img {
-                        width: 305px;
-                        height: 283.37px;
-                    }
-                }
-                .landing-android {
-                    margin-top: 92.86px;
-                    img {
-                        width: 305px;
-                        height: 655.75px;
-                    }
-                }
-            }
+  .landing {
+    .landing-examples {
+      .landing-pictures {
+        .landing-mac {
+          width: 305px;
+          height: 604px;
         }
+      }
+      .landing-two-pictures {
+        .landing-art1 {
+          margin-top: 92.86px;
+        }
+        .landing-ar2 {
+          margin-top: 92.86px;
+        }
+      }
     }
+  }
 }
