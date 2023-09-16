@@ -12,12 +12,12 @@ function Header(props) {
       <div className="header-container">
         <div className="header-info">
           <div className="header-text">
-            <div>we are a</div>
+            <div>We are a</div>
             <div>branding & graphics</div>
             <div>design studio</div>
           </div>
           <div className="header-button">
-            <Button text={"CONTACT US"} work={scroll} />
+            <Button text={"contact us"} work={scroll} />
           </div>
         </div>
         <div className="header-photo">

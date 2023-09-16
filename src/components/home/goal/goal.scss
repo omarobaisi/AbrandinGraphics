@@ -43,15 +43,16 @@
       padding-left: 271px;
       padding-top: 120px;
       h2 {
-        font-size: 36px;
+        font-size: 45px;
         line-height: 63px;
       }
       p {
         font-size: 16px;
         line-height: 24px;
+        margin-top: 47.7px;
       }
       .goal-button {
-        margin-top: 75.9px;
+        margin-top: 95.8px;
       }
     }
   }
@@ -65,15 +66,16 @@
       padding-left: 253.66px;
       padding-top: 105px;
       h2 {
-        font-size: 31.5104px;
+        font-size: 38px;
         line-height: 55px;
       }
       p {
         font-size: 16px;
         line-height: 24px;
+        margin-top: 41.75px;
       }
       .goal-button {
-        margin-top: 66.4px;
+        margin-top: 83.24px;
       }
     }
   }
@@ -87,15 +89,16 @@
       padding-left: 150px;
       padding-top: 100px;
       h2 {
-        font-size: 30.0366px;
-        line-height: 53px;
+        font-size: 36px;
+        line-height: 52px;
       }
       p {
-        font-size: 13.5165px;
+        font-size: 14px;
         line-height: 15px;
+        margin-top: 39.63px;
       }
       .goal-button {
-        margin-top: 63.32px;
+        margin-top: 80px;
       }
     }
   }
@@ -109,15 +112,16 @@
       padding-left: 217px;
       padding-top: 88px;
       h2 {
-        font-size: 28px;
-        line-height: 47px;
+        font-size: 32px;
+        line-height: 46.7px;
       }
       p {
         font-size: 16px;
         line-height: 24px;
+        margin-top: 41.82px;
       }
       .goal-button {
-        margin-top: 47px;
+        margin-top: 55.48px;
       }
     }
   }
@@ -137,11 +141,10 @@
       }
       p {
         font-size: 15px;
-        line-height: 22px;
+        margin-top: 57px;
       }
       .goal-button {
-        margin-top: 68px;
-        margin-bottom: 90.28px;
+        margin-top: 82.74px;
       }
     }
     .goal-img {
@@ -162,17 +165,15 @@
       padding-left: 88px;
       padding-top: 50px;
       h2 {
-        font-size: 30px;
+        font-size: 32px;
         line-height: 70px;
         margin-bottom: 40px;
       }
       p {
         font-size: 16px;
-        line-height: 24px;
       }
       .goal-button {
-        margin-top: 68px;
-        margin-bottom: 90.28px;
+        margin-top: 58.74px;
       }
     }
     .goal-img {
@@ -185,27 +186,27 @@
 }
 
 // Iphone 14 Pro Max
-@media (max-width: 700px) {
+@media (max-width: 855px) {
   .goal {
     height: 368px;
     .goal-green {
       width: 100%;
       height: 100%;
       padding-left: 0;
-      padding-top: 73px;
+      padding-top: 108px;
       text-align: center;
       h2 {
-        font-size: 26px;
+        font-size: 25px;
         line-height: 36px;
-        margin-bottom: 30px;
+        margin-top: 0;
       }
       p {
         font-size: 15px;
         line-height: 22px;
+        margin-top: 32px;
       }
       .goal-button {
-        margin-top: 45px;
-        margin-bottom: 90.28px;
+        margin-top: 32px;
       }
     }
     .goal-img {
