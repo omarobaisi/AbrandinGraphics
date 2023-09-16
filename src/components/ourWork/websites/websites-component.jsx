@@ -24,6 +24,9 @@ import pic2430 from "./img-2/iPhone/430w/Hompage.webp";
 import pic2390 from "./img-2/iPhone/390w/Hompage.webp";
 import pic2360 from "./img-2/Android/Hompage.webp";
 
+import page1 from "./img-2/page1.png";
+import page2 from "./img-2/page2.png";
+
 import Button from "../../button/button2/button2-component";
 import Header from "../header/workHeader-component";
 import Example from "../example/workExample-component";
@@ -112,6 +115,17 @@ function WebsitesComponent(props) {
           </div>
         </div>
       </div>
+
+      <Example first="An example of the events screen that belong to a community App." />
+      <div className="website-two-pictures">
+        <div>
+          <img className="website-page1" src={page1} alt="" />
+        </div>
+        <div>
+          <img className="website-page2" src={page2} alt="" />
+        </div>
+      </div>
+
       <div className="work-button">
         <Button text="NEXT" work={nextPage} />
       </div>

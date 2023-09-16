@@ -33,6 +33,20 @@
   padding-top: 5rem;
 }
 
+.website-two-pictures {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+}
+.website-page1 {
+  width: 390px;
+  height: 844px;
+}
+.website-page2 {
+  width: 307.576px;
+  height: 1168px;
+}
+
 /* MacBook Pro 16 */
 @media (max-width: 1728px) {
   .website {
@@ -63,6 +77,17 @@
     height: 1431.83px;
     padding-top: 0rem;
   }
+  .website-two-pictures {
+    gap: 76.38px;
+  }
+  .website-page1 {
+    width: 314.68px;
+    height: 681px;
+  }
+  .website-page2 {
+    width: 291.512px;
+    height: 1107px;
+  }
 }
 
 /* Desktop */
@@ -78,6 +103,14 @@
     width: 681.99px;
     height: 1431.83px;
     padding-top: 0rem;
+  }
+  .website-page1 {
+    width: 390px;
+    height: 844px;
+  }
+  .website-page2 {
+    width: 307.576px;
+    height: 1168px;
   }
 }
 
@@ -95,6 +128,17 @@
     height: 1431.83px;
     padding-top: 0rem;
   }
+  .website-two-pictures {
+    gap: 79.94px;
+  }
+  .website-page1 {
+    width: 310.059px;
+    height: 671px;
+  }
+  .website-page2 {
+    width: 291.512px;
+    height: 1107px;
+  }
 }
 
 /* IPad Pro 12.9 */
@@ -110,6 +154,17 @@
     width: 533.52px;
     height: 1120.11px;
     padding-top: 0rem;
+  }
+  .website-two-pictures {
+    gap: 53.73px;
+  }
+  .website-page1 {
+    width: 239.272px;
+    height: 517.808px;
+  }
+  .website-page2 {
+    width: 240.002px;
+    height: 911.393px;
   }
 }
 
@@ -127,6 +182,17 @@
     height: 1120.11px;
     padding-top: 0rem;
   }
+  .website-two-pictures {
+    gap: 56.73px;
+  }
+  .website-page1 {
+    width: 239.272px;
+    height: 517.808px;
+  }
+  .website-page2 {
+    width: 237.002px;
+    height: 900px;
+  }
 }
 
 /* Iphone 14 Pro Max */
@@ -142,6 +208,19 @@
     width: 305px;
     height: 750.34px;
     padding-top: 0rem;
+  }
+  .website-two-pictures {
+    flex-direction: column;
+    gap: 49.16;
+    text-align: center;
+  }
+  .website-page1 {
+    width: 239.272px;
+    height: 517.808px;
+  }
+  .website-page2 {
+    width: 239px;
+    height: 907.587px;
   }
 }
 

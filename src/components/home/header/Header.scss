@@ -188,6 +188,16 @@
   }
 }
 
+@media (max-width: 960px) {
+  .header {
+    .header-container {
+      .header-photo {
+        right: 225px;
+      }
+    }
+  }
+}
+
 // IPad Pro 11
 @media (max-width: 834px) {
   .header {
