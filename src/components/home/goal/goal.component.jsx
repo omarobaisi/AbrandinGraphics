@@ -19,7 +19,7 @@ function Goal() {
         <h2>Our goal</h2>
         <p> Is to make the world a more beautifal place </p>
         <div className="goal-button">
-          <Button text="CONTACT US" work={scroll} />
+          <Button text="contact us" work={scroll} />
         </div>
       </div>
       <div className="goal-img">
