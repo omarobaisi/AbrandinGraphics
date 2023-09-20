@@ -7,10 +7,10 @@ import pic11728 from "./img-2/Macbook/1728w/Collection SS22.webp";
 import pic11512 from "./img-2/Macbook/1512w/Collection SS22.webp";
 import pic11440 from "./img-2/Desktop/1440w/Collection SS22.webp";
 import pic11280 from "./img-2/Macbook/1280w/Collection SS22.webp";
-import pic11024 from "./img-2/Tablet/1024w/Collection SS22.webp";
+import pic11024 from "./img-2/Tablet/1024w/Collection SS22.png";
 import pic1834 from "./img-2/Tablet/834w/Collection SS22.png";
-import pic1430 from "./img-2/iPhone/430w/Collection SS22.jpg";
-import pic1390 from "./img-2/iPhone/390w/Collection SS22.jpg";
+import pic1430 from "./img-2/iPhone/430w/Collection SS22.jpeg";
+import pic1390 from "./img-2/iPhone/390w/Collection SS22.jpeg";
 import pic1360 from "./img-2/Android/Collection SS22.jpg";
 
 import pic21920 from "./img-2/Desktop/1920w/Hompage.webp";
