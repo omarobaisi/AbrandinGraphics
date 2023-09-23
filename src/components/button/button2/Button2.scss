@@ -1,91 +1,91 @@
 .button2 {
-    button {
-        width: 305px;
-        height: 65px;
-    
-        background: white;
-        color: black;
-        border-radius: 10px;
-        border: 0;
-    
-        font-family: 'Poppins SemiBold';
-        font-style: normal;
-        font-size: 16px;
-        line-height: 24px;
-        text-align: center;
-        transition: 200ms ease-in-out;
-    }
+  button {
+    width: 305px;
+    height: 65px;
 
-    button:hover {
-        background: #bbbbbb;
-    }
+    background: white;
+    color: black;
+    border-radius: 10px;
+    border: 0;
+
+    font-family: "Poppins SemiBold";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    transition: 200ms ease-in-out;
+  }
+
+  button:hover {
+    background: #bbb;
+  }
 }
 
 .work-button {
-    text-align: center;
-    margin-top: 130px;
-    padding-bottom: 130px;
+  text-align: center;
+  margin-top: 130px;
+  padding-bottom: 130px;
 }
 
 // MacBook Pro 16
 @media (max-width: 1728px) {
-    .button2 {
-        button {
-            width: 252.13px;
-            height: 53.73px;
-            border-radius: 9px;
-            font-size: 14px;
-            line-height: 21px;
-        }
+  .button2 {
+    button {
+      width: 252.13px;
+      height: 53.73px;
+      border-radius: 9px;
+      font-size: 14px;
+      line-height: 21px;
     }
+  }
 }
 
 // MacBook Pro 14
 @media (max-width: 1512px) {
-    .button2 {
-        button {
-            width: 210.11px;
-            height: 44.78px;
-            border-radius: 6.8888px;
-            font-size: 12px;
-            line-height: 45px;
-        }
+  .button2 {
+    button {
+      width: 210.11px;
+      height: 44.78px;
+      border-radius: 6.8888px;
+      font-size: 12px;
+      line-height: 45px;
     }
+  }
 }
 
 // Desktop
 @media (max-width: 1440px) {
-    .button {
-        button {
-            font-size: 13px;
-            line-height: 19px;
-        }
+  .button {
+    button {
+      font-size: 13px;
+      line-height: 19px;
     }
+  }
 }
 
 // Macbook Air
 @media (max-width: 1440px) {
-    .button {
-        button {
-            font-size: 14px;
-            line-height: 21px;
-        }
+  .button {
+    button {
+      font-size: 14px;
+      line-height: 21px;
     }
+  }
 }
 
 // IPad Pro 12.9
 @media (max-width: 1024px) {
-    .button2 {
-        button {
-            width: 210.11px;
-            height: 44.78px;
-            border-radius: 7.4961px;
-            font-size: 13px;
-            line-height: 19px;
-        }
+  .button2 {
+    button {
+      width: 210.11px;
+      height: 44.78px;
+      border-radius: 7.4961px;
+      font-size: 13px;
+      line-height: 19px;
     }
-    .work-button {
-        margin-top: 85px;
-        padding-bottom: 85px;
-    }
+  }
+  .work-button {
+    margin-top: 85px;
+    padding-bottom: 85px;
+  }
 }

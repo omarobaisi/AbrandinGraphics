@@ -29,6 +29,17 @@
         margin-top: 25px;
       }
     }
+    .rebranding-text-mobile {
+      display: none;
+      margin: auto;
+      font-family: "Roc Grotesk 300";
+      font-style: normal;
+      font-size: 16px;
+      color: #000000;
+      .rebranding-newLine {
+        margin-top: 25px;
+      }
+    }
   }
 }
 
@@ -221,6 +232,11 @@
         }
       }
       .rebranding-text {
+        display: none;
+      }
+      .rebranding-text-mobile {
+        width: 90%;
+        display: block;
         font-size: 14.5px;
         line-height: 21px;
         .rebranding-newLine {
@@ -231,11 +247,25 @@
   }
 }
 
+// Iphone 14
+@media (max-width: 390px) {
+  .rebranding {
+    .rebranding-info {
+      .rebranding-text-mobile {
+        width: 95%;
+      }
+    }
+  }
+}
+
 // Android Large
 @media (max-width: 360px) {
   .rebranding {
     .rebranding-info {
       width: 90%;
+      .rebranding-text-mobile {
+        width: 100%;
+      }
     }
   }
 }

@@ -46,6 +46,21 @@ function Rebranding(props) {
             We will be happy to accompany you!
           </div>
         </div>
+        <div className="rebranding-text-mobile">
+          <div>When the character of the brand changes,</div>
+          <div>
+            when the trend passes or even just if you feel like it - we're here
+            for you.
+          </div>
+          <div className="rebranding-newLine">
+            We believe that it is possible to maintain the visual design basics
+            of the existing branding - but refresh it,{" "}
+          </div>
+          <div>renew it and move with our dynamic world.</div>
+          <div className="rebranding-newLine">
+            We will be happy to accompany you!
+          </div>
+        </div>
       </div>
     </div>
   );

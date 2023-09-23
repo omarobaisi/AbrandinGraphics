@@ -12,7 +12,12 @@ function Header(props) {
       <div className="header-container">
         <div className="header-info">
           <div className="header-text">
-            <div>We are a</div>
+            <div className="header-first-text">
+              <div>We are a</div>
+              <div className="header-photo">
+                <img src={stickerGIF} alt="" />
+              </div>
+            </div>
             <div>branding & graphics</div>
             <div>design studio</div>
           </div>
@@ -20,7 +25,7 @@ function Header(props) {
             <Button text={"contact us"} work={scroll} />
           </div>
         </div>
-        <div className="header-photo">
+        <div className="header-photo-mobile">
           <img src={stickerGIF} alt="" />
         </div>
       </div>
