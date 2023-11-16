@@ -1,0 +1,197 @@
+.navigation {
+  z-index: 1;
+  position: relative;
+}
+.nav-icon-wrapper {
+  position: absolute;
+  top: 54px;
+  right: 164px;
+  cursor: pointer;
+}
+.options {
+  position: absolute;
+  top: 114px;
+  width: calc(100vw - 328px);
+  height: 627px;
+  margin-left: 164px;
+  background: #20392d;
+  box-shadow: 0px 4px 4px 0px rgba(32, 57, 45, 0.25);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 45px;
+}
+.link {
+  color: #fff;
+  font-family: "Roc Grotesk 400";
+  font-size: 18px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+}
+.active-link {
+  color: #48d3a4;
+  font-family: "Roc Grotesk 400";
+  font-size: 18px;
+  text-decoration-line: underline;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+// MacBook Pro 16
+@media (max-width: 1728px) {
+  .nav-icon-wrapper {
+    top: 46.6px;
+    right: 116px;
+  }
+  .options {
+    height: 574px !important;
+    top: 97.6px;
+    width: calc(100vw - 228px);
+    height: 627px;
+    margin-left: 114px;
+    gap: 18px;
+    padding-top: 59px;
+  }
+}
+
+// MacBook Pro 14
+@media (max-width: 1512px) {
+  .nav-icon-wrapper {
+    top: 46.6px;
+    right: 116px;
+  }
+  .options {
+    height: 490px !important;
+    top: 91.41px;
+    width: calc(100vw - 232px);
+    height: 627px;
+    margin-left: 116px;
+    gap: 12px;
+    padding-top: 41px;
+  }
+}
+
+// Desktop
+@media (max-width: 1440px) {
+  .nav-icon-wrapper {
+    top: 46px;
+    right: 148px;
+  }
+  .options {
+    height: 461px !important;
+    top: 90px;
+    width: calc(100vw - 296px);
+    height: 627px;
+    margin-left: 148px;
+    gap: 11px;
+    padding-top: 33px;
+  }
+}
+
+// Macbook Air
+@media (max-width: 1280px) {
+  .nav-icon-wrapper {
+    top: 46.34px;
+    right: 115px;
+  }
+  .options {
+    height: 441px !important;
+    top: 91.34px;
+    width: calc(100vw - 236px);
+    height: 627px;
+    margin-left: 118px;
+    gap: 9px;
+    padding-top: 34px;
+  }
+}
+
+// IPad Pro 12.9
+@media (max-width: 1024px) {
+  .link {
+    font-size: 17px;
+  }
+  .active-link {
+    font-size: 17px;
+  }
+  .nav-icon-wrapper {
+    top: 46px;
+    right: 113px;
+  }
+  .options {
+    height: 500px !important;
+    top: 111px;
+    width: calc(100vw - 230px);
+    height: 627px;
+    margin-left: 115px;
+    gap: 15px;
+    padding-top: 29px;
+  }
+}
+
+// IPad Pro 12.9
+@media (max-width: 834px) {
+  .nav-icon-wrapper {
+    top: 46px;
+    right: 52px;
+  }
+  .options {
+    height: 626px !important;
+    top: 111px;
+    width: calc(100vw - 116px);
+    height: 627px;
+    margin-left: 58px;
+    gap: 26px;
+    padding-top: 29px;
+  }
+}
+
+// IPad Pro 12.9
+@media (max-width: 750px) {
+  .link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .active-link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .nav-icon-wrapper {
+    top: 25px;
+    right: 51px;
+  }
+  .options {
+    height: 382px !important;
+    top: 68px;
+    width: calc(100vw - 104px);
+    height: 627px;
+    margin-left: 52px;
+    gap: 16px;
+    padding-top: 25px;
+  }
+}
+
+// IPad Pro 12.9
+@media (max-width: 390px) {
+  .nav-icon-wrapper {
+    right: 34px;
+  }
+  .options {
+    width: calc(100vw - 64px);
+    margin-left: 32px;
+  }
+}
+
+// IPad Pro 12.9
+@media (max-width: 360px) {
+  .nav-icon-wrapper {
+    right: 18px;
+  }
+  .options {
+    width: calc(100vw - 32px);
+    margin-left: 16px;
+  }
+}
