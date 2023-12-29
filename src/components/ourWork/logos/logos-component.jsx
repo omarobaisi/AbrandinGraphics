@@ -87,9 +87,9 @@ function LogosComponent(props) {
       <Header header="Logos" des="For any type of business" />
       <div className="logos-examples">
         <Example
-          first="An example of banners for the Mama winery,"
-          second="an International Spanish family winery."
-          third="The resolutions are for a post on social networks and a Story for Instagram."
+          first='An example of the logo of the "Mama" winery.'
+          second="An international Spanish family winery."
+          third='The logo combines the letters "M" and "A" and creates an elegant symbol.'
         />
         <div className="logos-two-pictures">
           <div className="img-1920">

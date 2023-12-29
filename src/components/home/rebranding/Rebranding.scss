@@ -220,15 +220,15 @@
   .rebranding {
     .rebranding-info {
       text-align: center;
-      width: 80%;
+      width: 84%;
       margin: auto;
-      margin-top: 108px;
-      margin-bottom: 100px;
+      margin-top: 55px;
+      margin-bottom: 55px;
       .rebranding-header {
-        margin-bottom: 33px;
+        margin-bottom: 22px;
         h1 {
-          font-size: 26px;
-          line-height: 36px;
+          font-size: 22px;
+          line-height: 36px; /* 163.636% */
         }
       }
       .rebranding-text {

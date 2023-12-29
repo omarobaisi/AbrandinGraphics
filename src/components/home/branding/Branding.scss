@@ -230,7 +230,7 @@
 @media (max-width: 390px) {
   .branding-container {
     background-image: url("./img/iPhone/390w/RectangleGreenLines.png");
-    height: 373px;
+    height: 368px;
     .branding-sticker {
       img {
         width: 150px;
@@ -244,8 +244,9 @@
       margin: auto;
       h1 {
         font-size: 25px;
-        line-height: 36px;
-        padding-top: 102px;
+        line-height: 32px;
+        letter-spacing: 0.75px;
+        padding-top: 117px;
       }
       .branding-button {
         padding-top: 18px;

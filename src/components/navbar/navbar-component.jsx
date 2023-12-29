@@ -1,7 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Navbar.scss";
-import Navigation from "../navigation/navigation-component";
 
 import logo1920 from "./img/Desktop/1920w/Logo.png";
 import logo1728 from "./img/Macbook/1728w/Logo.png";
@@ -20,7 +19,6 @@ function Navbar(props) {
 
   return (
     <div className="navbar">
-      <Navigation />
       <div className="img-1920">
         <img onClick={homePage} src={logo1920} alt="" />
       </div>

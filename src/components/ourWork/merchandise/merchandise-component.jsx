@@ -45,7 +45,7 @@ function MerchandiseComponent(props) {
         <Example
           first="Example of shirts for “Onot”."
           second="A nursery in the style of the establishment of the State of Israel."
-          third="The employees wanted two shirts - for gils and boys."
+          third="The employees wanted two shirts - for girls and boys."
         />
         <div className="merchandise-pictures">
           <div className="img-1920">

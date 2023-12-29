@@ -116,7 +116,7 @@ function WebsitesComponent(props) {
         </div>
       </div>
 
-      <Example first="An example of the events screen that belong to a community App." />
+      <Example first="An example of a homepage and events screen, belonging to the communities App." />
       <div className="website-two-pictures">
         <div>
           <img className="website-page1" src={page1} alt="" />

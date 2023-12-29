@@ -66,7 +66,7 @@ function BannersComponent(props) {
         <Example
           first="An example of banners for the Mama winery,"
           second="an International Spanish family winery."
-          third="The resolutions are for a post on social networks and a Story for Instagram."
+          third="The resolutions are for a post on social media and a Story for Instagram."
         />
         <div className="banner-two-pictures">
           <div>
@@ -138,7 +138,7 @@ function BannersComponent(props) {
           <Example
             first='An example of banner for "Hasbara Fellowships",'
             second="A company that calls young Jews to come to ״Taglit” and discover Israel."
-            third="The resolution is for a post on social networks."
+            third="The resolution is for a post on social media."
           />
         </div>
         <div className="banner-pictures">
@@ -177,7 +177,7 @@ function BannersComponent(props) {
           <Example
             first='An example of banner for "Trullion",'
             second="AI based platform for the management and automation."
-            third="The resolution is for a post on social networks."
+            third="The resolution is for a post on social media."
           />
         </div>
         <div className="banner-pictures">

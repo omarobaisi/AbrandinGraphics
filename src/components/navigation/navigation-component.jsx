@@ -4,8 +4,7 @@ import NavIcon from "./NavIcon";
 import CloseIcon from "./CloseIcon";
 import Links from "./Links";
 
-function Navigation(props) {
-  const [open, setOpen] = useState(false);
+function Navigation({ showOverlay, setShowOverlay }) {
   const navigationRef = useRef(null);
 
   const options = [
@@ -61,7 +60,7 @@ function Navigation(props) {
 
   const handleToggle = (event) => {
     event.stopPropagation();
-    setOpen(!open);
+    setShowOverlay(!showOverlay);
   };
 
   const handleClickOutside = (event) => {
@@ -69,7 +68,7 @@ function Navigation(props) {
       navigationRef.current &&
       !navigationRef.current.contains(event.target)
     ) {
-      setOpen(false);
+      setShowOverlay(false);
     }
   };
 
@@ -84,9 +83,9 @@ function Navigation(props) {
   return (
     <div className="navigation" ref={navigationRef}>
       <div className="nav-icon-wrapper" onClick={handleToggle}>
-        {open ? <CloseIcon /> : <NavIcon />}
+        {showOverlay ? <CloseIcon /> : <NavIcon />}
       </div>
-      {open && (
+      {showOverlay && (
         <div className="options">
           {options.map((option) => (
             <Links {...option} />
