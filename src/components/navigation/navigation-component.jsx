@@ -1,11 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Navigation.scss";
 import NavIcon from "./NavIcon";
+import MobileNavIcon from "./MobileNavIcon";
 import CloseIcon from "./CloseIcon";
 import Links from "./Links";
 
 function Navigation({ showOverlay, setShowOverlay }) {
   const navigationRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 750);
 
   const options = [
     {
@@ -80,10 +82,28 @@ function Navigation({ showOverlay, setShowOverlay }) {
     };
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 750);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="navigation" ref={navigationRef}>
       <div className="nav-icon-wrapper" onClick={handleToggle}>
-        {showOverlay ? <CloseIcon /> : <NavIcon />}
+        {showOverlay ? (
+          <CloseIcon />
+        ) : isMobile ? (
+          <MobileNavIcon />
+        ) : (
+          <NavIcon />
+        )}
       </div>
       {showOverlay && (
         <div className="options">
