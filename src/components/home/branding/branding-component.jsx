@@ -12,6 +12,11 @@ function Branding(props) {
         <div className="branding-text">
           <h1>We also do branding from scratch!</h1>
         </div>
+        <div className="mobile-branding-text">
+          <h1>We also do</h1>
+          <h1>branding</h1>
+          <h1>from scratch!</h1>
+        </div>
         <div className="branding-button">
           <Button text={"contact us"} work={scroll} />
         </div>

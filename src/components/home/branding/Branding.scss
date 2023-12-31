@@ -25,6 +25,9 @@
       padding-top: 276px;
       margin: 0;
     }
+    .mobile-branding-text {
+      display: none;
+    }
     .branding-button {
       text-align: center;
       padding-top: 45px;
@@ -212,15 +215,22 @@
       }
     }
     .branding-info {
-      width: 45%;
+      width: 100%;
       margin: auto;
       h1 {
         font-size: 25px;
         line-height: 36px;
-        padding-top: 102px;
+        padding-top: 0;
       }
       .branding-button {
         padding-top: 18px;
+      }
+      .branding-text {
+        display: none;
+      }
+      .mobile-branding-text {
+        display: block;
+        padding-top: 102px;
       }
     }
   }
@@ -240,16 +250,17 @@
       }
     }
     .branding-info {
-      width: 49%;
       margin: auto;
       h1 {
         font-size: 25px;
         line-height: 32px;
         letter-spacing: 0.75px;
-        padding-top: 117px;
       }
       .branding-button {
         padding-top: 18px;
+      }
+      .mobile-branding-text {
+        padding-top: 117px;
       }
     }
   }
@@ -269,15 +280,16 @@
       }
     }
     .branding-info {
-      width: 53%;
       margin: auto;
       h1 {
         font-size: 25px;
         line-height: 36px;
-        padding-top: 102px;
       }
       .branding-button {
         padding-top: 18px;
+      }
+      .mobile-branding-text {
+        padding-top: 102px;
       }
     }
   }
