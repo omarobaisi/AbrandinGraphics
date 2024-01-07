@@ -243,7 +243,7 @@ function Services(props) {
   return (
     <div className="services-container">
       <div className="service-header">
-        <h1>what are we doing?</h1>
+        <h1>What are we doing?</h1>
         <div>We design everything.</div>
       </div>
       <div className="">

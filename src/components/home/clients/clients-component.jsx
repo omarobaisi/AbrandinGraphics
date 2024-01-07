@@ -1,15 +1,19 @@
 import React, { useEffect } from "react";
 import "./clients.scss";
 
-const pango = require("./img2/Pango.png");
-const client2 = require("./img2/Client2.png");
-const client1 = require("./img2/Client1.png");
-const yellow = require("./img2/Yellow.png");
-const el = require("./img2/el.png");
-const rise = require("./img2/rise.png");
-const primis = require("./img2/Primis.png");
-const cobwebs = require("./img2/Cobwebs.png");
-const trullion = require("./img2/Trullion.png");
+const c1 = require("./img/c1.png");
+const c2 = require("./img/c2.png");
+const c3 = require("./img/c3.png");
+const c4 = require("./img/c4.png");
+const c5 = require("./img/c5.png");
+const c6 = require("./img/c6.png");
+const c7 = require("./img/c7.png");
+const c8 = require("./img/c8.png");
+const c9 = require("./img/c9.png");
+const c10 = require("./img/c10.png");
+const c11 = require("./img/c11.png");
+const c12 = require("./img/c12.png");
+const c13 = require("./img/c13.png");
 
 const Clients = () => {
   const sliderAnimation = function (speedPixel, repeatEveryMSec) {
@@ -51,40 +55,56 @@ const Clients = () => {
 
   const images = [
     {
-      name: "pango",
-      desktop: pango,
+      name: "c1",
+      desktop: c1,
     },
     {
-      name: "client2",
-      desktop: client2,
+      name: "c2",
+      desktop: c2,
     },
     {
-      name: "client1",
-      desktop: client1,
+      name: "c3",
+      desktop: c3,
     },
     {
-      name: "yellow",
-      desktop: yellow,
+      name: "c4",
+      desktop: c4,
     },
     {
-      name: "el",
-      desktop: el,
+      name: "c5",
+      desktop: c5,
     },
     {
-      name: "rise",
-      desktop: rise,
+      name: "c6",
+      desktop: c6,
     },
     {
-      name: "primis",
-      desktop: primis,
+      name: "c7",
+      desktop: c7,
     },
     {
-      name: "cobwebs",
-      desktop: cobwebs,
+      name: "c8",
+      desktop: c8,
     },
     {
-      name: "trullion",
-      desktop: trullion,
+      name: "c9",
+      desktop: c9,
+    },
+    {
+      name: "c10",
+      desktop: c10,
+    },
+    {
+      name: "c11",
+      desktop: c11,
+    },
+    {
+      name: "c12",
+      desktop: c12,
+    },
+    {
+      name: "c13",
+      desktop: c13,
     },
   ];
 

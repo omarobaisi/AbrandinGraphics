@@ -64,7 +64,7 @@ function BannersComponent(props) {
       <Header header="Banners" des="Of any size and media" />
       <div className="banner-examples">
         <Example
-          first="An example of banners for the Mama winery,"
+          first="An example of banners for the Mama Winery,"
           second="an International Spanish family winery."
           third="The resolutions are for a post on social media and a Story for Instagram."
         />
