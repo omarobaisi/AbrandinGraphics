@@ -5,7 +5,7 @@
     width: 162px;
     height: 30px;
     margin-left: 164px;
-    top: 46px;
+    top: 54px;
   }
 }
 
@@ -14,6 +14,16 @@
   .navbar {
     img {
       margin-left: 115px;
+      top: 47.6px;
+    }
+  }
+}
+
+// MacBook Pro 14
+@media (max-width: 1512px) {
+  .navbar {
+    img {
+      top: 46.41px;
     }
   }
 }
@@ -23,6 +33,7 @@
   .navbar {
     img {
       margin-left: 146.5px;
+      top: 46px;
     }
   }
 }
@@ -32,6 +43,7 @@
   .navbar {
     img {
       margin-left: 115px;
+      top: 46.34px;
     }
   }
 }
@@ -43,15 +55,7 @@
       margin-left: 112px;
       width: 149px;
       height: 28px;
-    }
-  }
-}
-
-// IPad Pro 11
-@media (max-width: 834px) {
-  .navbar {
-    img {
-      margin-left: 41%;
+      top: 46px;
     }
   }
 }
@@ -63,7 +67,7 @@
       margin-left: 53px;
       width: 143px;
       height: 27px;
-      top: 35px;
+      top: 30px;
     }
   }
 }

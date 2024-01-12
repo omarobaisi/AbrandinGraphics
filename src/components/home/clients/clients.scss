@@ -3,7 +3,7 @@
   overflow: hidden;
   height: 388px;
   align-items: center;
-  padding: 0 200px;
+  padding: 0 150px;
   .client {
     img {
       margin: 0 115px;
@@ -16,7 +16,7 @@
 @media (max-width: 1728px) {
   .clients {
     height: 353px;
-    padding: 0 160px;
+    padding: 0 80px;
   }
 }
 
@@ -24,7 +24,7 @@
 @media (max-width: 1512px) {
   .clients {
     height: 302px;
-    padding: 0 180px;
+    padding: 0 100px;
   }
 }
 
@@ -32,7 +32,7 @@
 @media (max-width: 1440px) {
   .clients {
     height: 292px;
-    padding: 0 50px;
+    padding: 0 20px;
     .client {
       img {
         height: 100px;
@@ -60,7 +60,7 @@
 // IPad
 @media (max-width: 834px) {
   .clients {
-    padding: 0 40px;
+    padding: 0;
     .client {
       img {
         height: 90px;
@@ -72,23 +72,11 @@
 @media (max-width: 430px) {
   .clients {
     height: 155px;
-    padding: 0 40px;
+    padding: 0;
     .client {
       img {
         height: 80px;
       }
     }
-  }
-}
-
-@media (max-width: 390px) {
-  .clients {
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 360px) {
-  .clients {
-    padding: 0 10px;
   }
 }
