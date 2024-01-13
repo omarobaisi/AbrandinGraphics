@@ -54,6 +54,12 @@
   .clients {
     height: 243px;
     padding: 0 40px;
+    .client {
+      img {
+        height: 80px;
+        margin: 0 70px;
+      }
+    }
   }
 }
 
@@ -61,11 +67,6 @@
 @media (max-width: 834px) {
   .clients {
     padding: 0;
-    .client {
-      img {
-        height: 90px;
-      }
-    }
   }
 }
 
@@ -75,7 +76,8 @@
     padding: 0;
     .client {
       img {
-        height: 80px;
+        height: 65px;
+        margin: 0 50px;
       }
     }
   }
