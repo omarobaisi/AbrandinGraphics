@@ -22,11 +22,7 @@ const ContactUs = () => {
         <h2>aviad@abrandingraphics.com</h2>
         <h2>+972 523153355</h2>
         <h2>HaCarmel 14, Ganey Tikva, Israel</h2>
-        <form
-          action="https://formsubmit.co/aviad@abrandingraphics.com"
-          method="POST"
-          className="contact-form black-contact-form"
-        >
+        <form method="POST" className="contact-form black-contact-form">
           <input
             type="text"
             className="field"
