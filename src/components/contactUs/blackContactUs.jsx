@@ -12,9 +12,11 @@ import c834 from "./img/Tablet/834w/c.png";
 import c430 from "./img/iPhone/430w/c.png";
 import c390 from "./img/iPhone/390w/c.png";
 import c360 from "./img/Android/c.png";
+import { useNavigate } from "react-router-dom";
 
 const ContactUs = () => {
   const sendEmail = (e) => {};
+  const navigate = useNavigate();
 
   return (
     <div className="contact-container black-contact-container">
@@ -55,7 +57,7 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
-      <div>
+      <div onClick={() => navigate("/accessibility-statement")}>
         <div className="img-1920">
           <p>
             <img src={c1920} alt="" /> 2022 A dev. All rights reserved.
