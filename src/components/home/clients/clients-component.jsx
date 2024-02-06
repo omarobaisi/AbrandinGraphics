@@ -8,7 +8,6 @@ const c4 = require("./img/c4.png");
 const c5 = require("./img/c5.png");
 const c6 = require("./img/c6.png");
 const c7 = require("./img/c7.png");
-const c8 = require("./img/c8.png");
 const c9 = require("./img/c9.png");
 const c10 = require("./img/c10.png");
 const c11 = require("./img/c11.png");
@@ -81,10 +80,6 @@ const Clients = () => {
     {
       name: "c7",
       desktop: c7,
-    },
-    {
-      name: "c8",
-      desktop: c8,
     },
     {
       name: "c9",
