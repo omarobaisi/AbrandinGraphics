@@ -24,13 +24,13 @@ A brandingraphics אחראי על הקמת והפעלת אתר www.abrandingraph
 מסמך WCAG2.2 מאת ארגון W3C.
 
 בעברית: WCAG 2.0 הנחיות לנגישות תכנים
-באינטרנט{.underline}(https://www.isoc.org.il/files/w3c-wai/guidelines.html)\
-באנגלית:  0{.underline}(http://www.w3.org/TR/WCAG20)Web
+באינטרנט(https://www.isoc.org.il/files/w3c-wai/guidelines.html)\
+באנגלית:  0(http://www.w3.org/TR/WCAG20)Web
 Content Accessibility Guidelines (WCAG)
-2.{.underline}(http://www.w3.org/TR/WCAG20)
+2.(http://www.w3.org/TR/WCAG20)
 
 הנגשת האתר בוצעה בהתאם להנחיות רשות התקשוב להנגשת יישומים בדפדפני
-אינטרנט{.underline}(https://www.gov.il/he/departments/policies/accessibility_of_applications_in_web_browsers).
+אינטרנט(https://www.gov.il/he/departments/policies/accessibility_of_applications_in_web_browsers).
 
 **כיצד עוברים למצב נגיש?**
 
@@ -104,25 +104,6 @@ NVDA , JAWS
 
 אנו פועלים לשפר את נגישות האתר שלנו כל העת, כחלק ממחויבותנו לאפשר לכלל
 האוכלוסייה להשתמש בו, כולל אנשים עם מוגבלות.
-
-סעיף \"נגישות עסק פרונטלי\" חובה רק לעסק שמקבל קהל
-פרונטלי{.underline} (חנות פיזית/משרדי מכירות/מסעדות/ אולמות
-וכו\')
-
-במידה והעסק הוא 100% אונליין/לא מקבל קהל, **יש למחוק את הסעיף הנ\"ל
-(כולל משפט זה)מהצהרת הנגישות!!!!!**
-
-נגישות עסק פרונטלי{.underline}
-
-חניית נכים -- יש/אין
-
-גישה נגישה לעסק (עבור כיסא גלגלים) -- יש/אין
-
-שירותי נכים -- יש/אין
-
-מעליות -- יש/קומת קרקע
-
-יצירת קשר בנושא נגישות{.underline}
 
 במידה ונתקלתם בבעיה בנושא נגישות באתר, נשמח לקבל הערות ובקשות באמצעות
 פנייה לרכז הנגישות שלנו:
