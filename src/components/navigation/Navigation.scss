@@ -19,12 +19,12 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 25px;
-  padding-top: 45px;
+  gap: 18px;
+  padding-top: 32px;
 }
 .link {
   color: #fff;
-  font-family: "Roc Grotesk 400";
+  font-family: "Roc Grotesk 300";
   font-size: 18px;
   text-decoration-line: underline;
   cursor: pointer;
@@ -33,7 +33,7 @@
 }
 .active-link {
   color: #48d3a4;
-  font-family: "Roc Grotesk 400";
+  font-family: "Roc Grotesk 300";
   font-size: 18px;
   text-decoration-line: underline;
   cursor: pointer;
@@ -53,8 +53,8 @@
     width: calc(100vw - 228px);
     height: 627px;
     margin-left: 114px;
-    gap: 18px;
-    padding-top: 59px;
+    gap: 14px;
+    padding-top: 35px;
   }
 }
 
@@ -70,8 +70,14 @@
     width: calc(100vw - 232px);
     height: 627px;
     margin-left: 116px;
-    gap: 12px;
-    padding-top: 41px;
+    gap: 9px;
+    padding-top: 35px;
+  }
+  .link {
+    font-size: 17px;
+  }
+  .active-link {
+    font-size: 17px;
   }
 }
 
@@ -87,8 +93,8 @@
     width: calc(100vw - 296px);
     height: 627px;
     margin-left: 148px;
-    gap: 11px;
-    padding-top: 33px;
+    gap: 9px;
+    padding-top: 20px;
   }
 }
 
@@ -104,8 +110,8 @@
     width: calc(100vw - 236px);
     height: 627px;
     margin-left: 118px;
-    gap: 9px;
-    padding-top: 34px;
+    gap: 8px;
+    padding-top: 20px;
   }
 }
 
@@ -127,8 +133,8 @@
     width: calc(100vw - 230px);
     height: 627px;
     margin-left: 115px;
-    gap: 15px;
-    padding-top: 29px;
+    gap: 12px;
+    padding-top: 15px;
   }
 }
 
@@ -143,8 +149,14 @@
     width: calc(100vw - 116px);
     height: 627px;
     margin-left: 58px;
-    gap: 26px;
-    padding-top: 29px;
+    gap: 18px;
+    padding-top: 32px;
+  }
+  .link {
+    font-size: 18px;
+  }
+  .active-link {
+    font-size: 18px;
   }
 }
 
@@ -168,8 +180,8 @@
     width: calc(100vw - 104px);
     height: 627px;
     margin-left: 52px;
-    gap: 16px;
-    padding-top: 25px;
+    gap: 12px;
+    padding-top: 15px;
   }
 }
 

@@ -51,6 +51,14 @@ function Navigation({ showOverlay, setShowOverlay }) {
       link: "/merchandise",
     },
     {
+      name: "Blog",
+      // link: "/blog",
+    },
+    {
+      name: "Privacy & Terms",
+      link: "/accessibility-statement",
+    },
+    {
       name: "Contact",
       behavior: () =>
         window.scrollTo({
