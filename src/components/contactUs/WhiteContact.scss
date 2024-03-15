@@ -1,20 +1,26 @@
-.white-contact-container{
-	background-color: white;
-	.white-contact-box {
-		h2 {
-			color: black;
-		}
-		.white-contact-form{
-			.field{
-				background: black;
-				color: white;
-			}
-			::placeholder {
-				color: white;
-			}
-		}
-	}
-	p {
-		color: black;
-	}
+.white-contact-container {
+  background-color: white;
+  .white-contact-link {
+    color: black;
+  }
+  .white-contact-link:visited {
+    color: black;
+  }
+  .white-contact-box {
+    h2 {
+      color: black;
+    }
+    .white-contact-form {
+      .field {
+        background: black;
+        color: white;
+      }
+      ::placeholder {
+        color: white;
+      }
+    }
+  }
+  p {
+    color: black;
+  }
 }

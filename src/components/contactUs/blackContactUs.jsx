@@ -21,10 +21,34 @@ const ContactUs = () => {
   return (
     <div className="contact-container black-contact-container">
       <div className="contact-box black-contact-box">
-        <h2>aviad@abrandingraphics.com</h2>
-        <h2>+972 523153355</h2>
-        <h2>HaCarmel 14, Ganey Tikva, Israel</h2>
-        <form method="POST" className="contact-form black-contact-form">
+        <h2>
+          <a
+            className="black-contact-link"
+            href="mailto:aviad@abrandingraphics.com"
+          >
+            aviad@abrandingraphics.com
+          </a>
+        </h2>
+        <h2>
+          <a className="black-contact-link" href="tel:+972523153355">
+            +972 523153355
+          </a>
+        </h2>
+        <h2>
+          <a
+            className="black-contact-link"
+            href="https://waze.com/ul?q=HaCarmel%2014%2C%20Ganey%20Tikva%2C%20Israel&navigate=yes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            HaCarmel 14, Ganey Tikva, Israel
+          </a>
+        </h2>
+        <form
+          action="https://formsubmit.co/aviad@abrandingraphics.com"
+          method="POST"
+          className="contact-form black-contact-form"
+        >
           <input
             type="text"
             className="field"
