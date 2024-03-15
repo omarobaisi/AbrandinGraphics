@@ -1,7 +1,16 @@
 .accessibility-statement {
   background-color: black;
-  color: white;
+  color: #fff;
+  text-align: right;
+  font-family: "Ploni ML v2 AAA";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 25px;
   .accessibility-statement-content {
     padding: 30px 50px;
+  }
+  .accessibility-statement-link {
+    color: white;
   }
 }
