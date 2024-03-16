@@ -52,7 +52,7 @@ function Navigation({ showOverlay, setShowOverlay }) {
     },
     {
       name: "Blog",
-      // link: "/blog",
+      link: "/blog",
     },
     {
       name: "Privacy & Terms",

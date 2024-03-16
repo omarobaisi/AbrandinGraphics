@@ -1,0 +1,178 @@
+.blog {
+  background-color: black;
+  color: white;
+  .blog-examples {
+    .blog-two-pictures {
+      display: flex;
+      justify-content: center;
+      .blog-custom-right {
+        margin-left: 77px;
+        color: #fff;
+        text-align: right;
+        font-family: "Ploni ML v2 AAA";
+        .blog-header {
+          font-size: 60px;
+          line-height: 70px;
+        }
+        .blog-details {
+          font-size: 18px;
+          line-height: 24px;
+          margin-top: 20px;
+        }
+        .blog-date {
+          font-size: 18px;
+          line-height: 25px;
+          margin-top: 34px;
+        }
+      }
+    }
+  }
+}
+
+// MacBook Pro 16
+@media (max-width: 1728px) {
+  .blog {
+    .blog-examples {
+      .blog-two-pictures {
+        .blog-custom-right {
+          margin-left: 78.69px;
+          .blog-header {
+            font-size: 50px;
+            line-height: 60px;
+          }
+          .blog-details {
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .blog-date {
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Desktop 1440
+@media (max-width: 1440px) {
+  .blog {
+    .blog-examples {
+      .blog-two-pictures {
+        .blog-custom-right {
+          margin-left: 78.69px;
+          .blog-header {
+            font-size: 60px;
+            line-height: 70px;
+          }
+          .blog-details {
+            font-size: 18px;
+            line-height: 24px;
+          }
+          .blog-date {
+            font-size: 18px;
+            line-height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// MacBook Pro air
+@media (max-width: 1280px) {
+  .blog {
+    .blog-examples {
+      .blog-two-pictures {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .blog-custom-right {
+          width: 582px;
+          margin-left: 0;
+          margin-top: 74.25px;
+          .blog-header {
+            font-size: 50px;
+            line-height: 60px;
+          }
+          .blog-details {
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .blog-date {
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// IPad Pro 12.9
+@media (max-width: 1024px) {
+  .blog {
+    .blog-examples {
+      .blog-two-pictures {
+        .blog-custom-right {
+          margin-top: 65.11px;
+        }
+      }
+    }
+  }
+}
+
+// IPad Pro 11
+@media (max-width: 1024px) {
+  .blog {
+    .blog-examples {
+      .blog-two-pictures {
+        .blog-custom-right {
+          .blog-header {
+            font-size: 40px;
+            line-height: 50px;
+          }
+          .blog-details {
+            font-size: 17px;
+            line-height: 23px;
+          }
+          .blog-date {
+            font-size: 17px;
+            line-height: 23px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Iphone 14 Pro Max
+@media (max-width: 840px) {
+  .blog {
+    .blog-examples {
+      .blog-two-pictures {
+        .blog-img {
+          width: 302px;
+          height: 176.17px;
+        }
+        .blog-custom-right {
+          margin-top: 51.1px;
+          width: 305px;
+          .blog-header {
+            font-size: 35px;
+            line-height: 40px;
+          }
+          .blog-details {
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .blog-date {
+            font-size: 16px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ import Presentations from "./routes/presentations/presentations-route";
 import Signs from "./routes/signs/signs-route";
 import SocialMedia from "./routes/socialMedia/socialMedia-route";
 import Merchandise from "./routes/merchandise/merchandise-route";
+import Blog from "./routes/blog/blog-route";
 import AccessibilityStatement from "./routes/AccessibilityStatement/accessibility-statement-route";
 
 import "./App.scss";
@@ -48,6 +49,7 @@ function App() {
                 <Route path="/signs" element={<Signs />} />
                 <Route path="/socialmedia" element={<SocialMedia />} />
                 <Route path="/merchandise" element={<Merchandise />} />
+                <Route path="/blog" element={<Blog />} />
                 <Route
                   path="/accessibility-statement"
                   element={<AccessibilityStatement />}
