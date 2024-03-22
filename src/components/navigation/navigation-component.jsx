@@ -4,10 +4,14 @@ import NavIcon from "./NavIcon";
 import MobileNavIcon from "./MobileNavIcon";
 import CloseIcon from "./CloseIcon";
 import Links from "./Links";
+import { useLocation } from "react-router-dom";
 
 function Navigation({ showOverlay, setShowOverlay }) {
   const navigationRef = useRef(null);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 750);
+
+  const location = useLocation();
+  const color = location.pathname.includes("/details") ? "black" : "white";
 
   const options = [
     {
@@ -110,7 +114,7 @@ function Navigation({ showOverlay, setShowOverlay }) {
         ) : isMobile ? (
           <MobileNavIcon />
         ) : (
-          <NavIcon />
+          <NavIcon color={color} />
         )}
       </div>
       {showOverlay && (

@@ -24,7 +24,7 @@ function BlogComponent(props) {
 
   const navigate = useNavigate();
   const nextPage = () => {
-    navigate("/websites", { replace: true });
+    navigate("details", { replace: true });
     window.scrollTo({ top: 0, left: 0 });
   };
 
@@ -70,7 +70,7 @@ function BlogComponent(props) {
         </div>
       </div>
       <div className="work-button">
-        <Button text="NEXT" work={nextPage} />
+        <Button text="MORE" work={nextPage} />
       </div>
     </div>
   );

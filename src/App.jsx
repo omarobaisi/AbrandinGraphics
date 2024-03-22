@@ -49,7 +49,7 @@ function App() {
                 <Route path="/signs" element={<Signs />} />
                 <Route path="/socialmedia" element={<SocialMedia />} />
                 <Route path="/merchandise" element={<Merchandise />} />
-                <Route path="/blog" element={<Blog />} />
+                <Route path="/blog/*" element={<Blog />} />
                 <Route
                   path="/accessibility-statement"
                   element={<AccessibilityStatement />}

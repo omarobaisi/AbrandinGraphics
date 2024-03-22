@@ -34,7 +34,7 @@ function MerchandiseComponent(props) {
 
   const navigate = useNavigate();
   const nextPage = () => {
-    navigate("/blog", { replace: true });
+    navigate("/websites", { replace: true });
     window.scrollTo({ top: 0, left: 0 });
   };
 

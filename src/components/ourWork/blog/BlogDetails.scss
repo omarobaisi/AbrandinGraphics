@@ -1,0 +1,160 @@
+.blog-details-component {
+  background-color: white;
+  color: black;
+  direction: rtl;
+  .blog-header {
+    color: #000;
+    font-family: "Ploni ML v2 AAA";
+    font-size: 82.71px;
+    font-weight: 300;
+    line-height: 96.495px;
+  }
+  .blog-details-underlined {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 68px;
+    margin-top: 25px;
+    div {
+      text-decoration: underline;
+    }
+  }
+  .blog-details-underlined-mobile {
+    display: none;
+  }
+  .blog-details-examples {
+    width: 990px;
+    margin: auto;
+    .blog-details-pictures {
+      text-align: center;
+    }
+  }
+  .blog-details-content {
+    font-size: 18px;
+  }
+}
+
+// MacBook Pro 16
+@media (max-width: 1728px) {
+  .blog-details-component {
+    .blog-details-examples {
+      width: 990px;
+      .blog-details-pictures {
+        .blog-details-img {
+        }
+      }
+    }
+  }
+}
+
+// MacBook Pro 14
+@media (max-width: 1512px) {
+  .blog-details-component {
+    .blog-details-examples {
+      width: 1042px;
+      .blog-details-pictures {
+        .blog-details-img {
+        }
+      }
+    }
+  }
+}
+
+// Desktop
+@media (max-width: 1440px) {
+  .blog-details-component {
+    .blog-details-examples {
+      width: 1188px;
+      .blog-details-pictures {
+        .blog-details-img {
+        }
+      }
+    }
+  }
+}
+
+// MacBook Pro air
+@media (max-width: 1280px) {
+  .blog-details-component {
+    .blog-details-examples {
+      width: 892px;
+      .blog-details-pictures {
+        .blog-details-img {
+        }
+      }
+    }
+  }
+}
+
+// IPad Pro 12.9
+@media (max-width: 1024px) {
+  .blog-details-component {
+    .blog-details-examples {
+      width: 802.863px;
+      .blog-details-pictures {
+        .blog-details-img {
+        }
+      }
+    }
+  }
+}
+
+// IPad Pro 11
+@media (max-width: 834px) {
+  .blog-details-component {
+    .blog-details-examples {
+      width: 640px;
+      .blog-header {
+        font-size: 40px;
+        line-height: 50px;
+        .blog-details-header-des {
+          display: flex;
+          gap: 8px;
+        }
+      }
+      .blog-details-pictures {
+        .blog-details-img {
+        }
+      }
+      .blog-details-content {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// Iphone 14 Pro Max
+@media (max-width: 700px) {
+  .blog-details-component {
+    .blog-details-examples {
+      width: 305px;
+      .blog-header {
+        display: block;
+        font-size: 35px;
+        line-height: 40px;
+        .blog-details-header-des {
+          display: block;
+        }
+      }
+      .blog-details-underlined {
+        display: none;
+      }
+      .blog-details-underlined-mobile {
+        display: block;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        .blog-details-underlined-mobile-section {
+          display: flex;
+          gap: 20px;
+          div {
+            text-decoration: underline;
+          }
+        }
+      }
+      .blog-details-pictures {
+        .blog-details-img {
+          width: 305px;
+        }
+      }
+    }
+  }
+}

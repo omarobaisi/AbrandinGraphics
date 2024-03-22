@@ -1,6 +1,6 @@
 .navbar {
   position: relative;
-  img {
+  .navbar-logo {
     position: absolute;
     width: 162px;
     height: 30px;
@@ -12,7 +12,7 @@
 // MacBook Pro 16
 @media (max-width: 1728px) {
   .navbar {
-    img {
+    .navbar-logo {
       margin-left: 115px;
       top: 47.6px;
     }
@@ -22,7 +22,7 @@
 // MacBook Pro 14
 @media (max-width: 1512px) {
   .navbar {
-    img {
+    .navbar-logo {
       top: 46.41px;
     }
   }
@@ -31,7 +31,7 @@
 // Desktop
 @media (max-width: 1440px) {
   .navbar {
-    img {
+    .navbar-logo {
       margin-left: 146.5px;
       top: 46px;
     }
@@ -41,7 +41,7 @@
 // Macbook Air
 @media (max-width: 1280px) {
   .navbar {
-    img {
+    .navbar-logo {
       margin-left: 115px;
       top: 46.34px;
     }
@@ -51,7 +51,7 @@
 // IPad Pro 12.9
 @media (max-width: 1024px) {
   .navbar {
-    img {
+    .navbar-logo {
       margin-left: 112px;
       width: 149px;
       height: 28px;
@@ -63,7 +63,7 @@
 // Iphone 14 Pro Max
 @media (max-width: 750px) {
   .navbar {
-    img {
+    .navbar-logo {
       margin-left: 53px;
       width: 143px;
       height: 27px;
@@ -75,7 +75,7 @@
 // Iphone 14
 @media (max-width: 390px) {
   .navbar {
-    img {
+    .navbar-logo {
       margin-left: 34px;
     }
   }
@@ -84,7 +84,7 @@
 // Android Large
 @media (max-width: 360px) {
   .navbar {
-    img {
+    .navbar-logo {
       margin-left: 18px;
     }
   }
