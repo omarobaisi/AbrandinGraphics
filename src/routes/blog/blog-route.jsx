@@ -8,13 +8,16 @@ import BlogDetailsComponent from "../../components/ourWork/blog/blog-details-com
 
 function BlogRoute(props) {
   const location = useLocation();
-  const color = location.pathname.includes("/details") ? "black" : "white"; // Assuming 'default' is your default theme
+  const color = location.pathname.includes("/details") ? "black" : "white";
+  const secondaryColor = location.pathname.includes("/details")
+    ? "white"
+    : "black";
   const ContactUsComponent = location.pathname.includes("/details")
     ? BlackContactUs
     : WhiteContactUs;
   return (
     <div>
-      <Navbar color={color} secondaryColor={color && "white"} />
+      <Navbar color={color} secondaryColor={secondaryColor} />
       <Routes>
         <Route index element={<BlogComponent />} />
         <Route path="details" element={<BlogDetailsComponent />} />

@@ -1,6 +1,6 @@
 import React from "react";
 
-function MobileNavIcon(props) {
+function MobileNavIcon({ color = "white" }) {
   return (
     <svg
       width="33"
@@ -14,14 +14,14 @@ function MobileNavIcon(props) {
         width="24.6429"
         height="1.64286"
         rx="0.821429"
-        fill="white"
+        fill={color}
       />
       <rect
         y="10.6786"
         width="32.0357"
         height="1.64286"
         rx="0.821429"
-        fill="white"
+        fill={color}
       />
       <rect
         x="18.8926"
@@ -29,7 +29,7 @@ function MobileNavIcon(props) {
         width="13.1429"
         height="1.64286"
         rx="0.821429"
-        fill="white"
+        fill={color}
       />
     </svg>
   );

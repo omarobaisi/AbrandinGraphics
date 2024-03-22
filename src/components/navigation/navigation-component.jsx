@@ -112,7 +112,7 @@ function Navigation({ showOverlay, setShowOverlay }) {
         {showOverlay ? (
           <CloseIcon />
         ) : isMobile ? (
-          <MobileNavIcon />
+          <MobileNavIcon color={color} />
         ) : (
           <NavIcon color={color} />
         )}
