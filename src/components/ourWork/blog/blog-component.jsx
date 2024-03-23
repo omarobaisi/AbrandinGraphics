@@ -65,7 +65,7 @@ function BlogComponent(props) {
             <img className="blog-img" src={BlogImg360} alt="" />
           </div>
           <div className="blog-custom-right">
-            <BlogCustomText />
+            <BlogCustomText nextPage={nextPage} />
           </div>
         </div>
       </div>

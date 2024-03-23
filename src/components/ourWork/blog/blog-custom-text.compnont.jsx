@@ -1,10 +1,10 @@
 import React from "react";
 
-function BlogCustomText(props) {
+function BlogCustomText({ nextPage }) {
   return (
-    <div>
+    <div onClick={nextPage}>
       <div className="blog-header">
-        <div>עיצוב מושך:</div>
+        <div>:עיצוב מושך</div>
         <div>המפתח להצלחה</div>
         <div>במדיה החברתית</div>
       </div>
@@ -13,7 +13,7 @@ function BlogCustomText(props) {
         <div>עיצוב מושך הוא לא עוד בחירה - אלא הכרח.</div>
         <div>במרחב רווי של פוסטים, תמונות וסרטונים,</div>
         <div>
-          העיצוב הוא זה שמעניק לתוכן שלכם את הכוח להתבלט ולמשוך תשומת לב...
+          ...העיצוב הוא זה שמעניק לתוכן שלכם את הכוח להתבלט ולמשוך תשומת לב
         </div>
       </div>
       <div className="blog-date">ים שדה, 12.3.2024</div>
