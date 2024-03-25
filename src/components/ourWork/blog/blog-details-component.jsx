@@ -14,6 +14,7 @@ import BlogImg834 from "./img/Tablet/834w/blog-details-img.png";
 import BlogImg430 from "./img/iPhone/430w/blog-details-img.png";
 import BlogImg390 from "./img/iPhone/390w/blog-details-img.png";
 import BlogImg360 from "./img/Android/blog-details-img.png";
+import { Link } from "react-router-dom";
 
 function BlogDetailsComponent(props) {
   useEffect(() => window.scrollTo({ top: 0, left: 0 }), []);
@@ -93,12 +94,24 @@ function BlogDetailsComponent(props) {
             </div>
           </p>
           <p>
-            <div>נתונים סטטיסטיים מדגישים את חשיבות הלוגו:</div>
+            <div>
+              נתונים סטטיסטיים מדגישים את חשיבות{" "}
+              <Link className="blog-details-link" to="/logos">
+                הלוגו
+              </Link>
+              :
+            </div>
             <li>80% מהצרכנים ציינו שהם זוכרים מותג על סמך הלוגו שלו. </li>
             <li>לוגו מעוצב היטב יכול להגדיל את המודעות למותג ב-25%. </li>
             <li>לוגו מושך יכול להגדיל את הכוונה לרכישה ב-15%.</li>
           </p>
-          <p>אז למה עיצוב כל כך חשוב במדיה חברתית?</p>
+          <p>
+            אז למה עיצוב כל כך חשוב{" "}
+            <Link className="blog-details-link" to="/socialmedia">
+              במדיה חברתית
+            </Link>
+            ?
+          </p>
           <p>
             <li>
               הרושם הראשוני: בממוצע, אדם מחליט תוך 2.7 שניות בלבד האם להמשיך
@@ -163,7 +176,12 @@ function BlogDetailsComponent(props) {
             </div>
           </p>
           <p>
-            <div>UX/UI מוצלחים יבטיחו:</div>
+            <div>
+              <Link className="blog-details-link" to="/websites">
+                UX/UI
+              </Link>{" "}
+              מוצלחים יבטיחו:
+            </div>
             <li>
               ניווט קל ונוח: המשתמשים יוכלו למצוא בקל./ות את מה שהם מחפשים
               ולעשות את מה שהם רוצים לעשות.

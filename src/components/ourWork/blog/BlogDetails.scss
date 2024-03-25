@@ -30,6 +30,12 @@
   }
   .blog-details-content {
     font-size: 18px;
+    .blog-details-link {
+      color: black;
+    }
+    .blog-details-link:visited {
+      color: black;
+    }
   }
 }
 
