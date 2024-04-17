@@ -13,7 +13,7 @@ function Quote(props) {
         <div>right and of course</div>
         <div>beautiful area."</div>
       </div>
-      <div className="author">Aviv Bogen, Cobwebs</div>
+      <div className="author">Lidya Sofer, Trullion</div>
     </div>
   );
 }
