@@ -73,6 +73,11 @@ import Picb92430 from "./img/iPhone/430w/Picb92.webp";
 import Picb92390 from "./img/iPhone/390w/Picb92.webp";
 import Picb92360 from "./img/Android/Picb92.webp";
 
+import Logo11 from "./img/logo11.jpg";
+import Logo12 from "./img/logo12.jpg";
+import Logo21 from "./img/logo21.jpg";
+import Logo22 from "./img/logo22.jpg";
+
 function LogosComponent(props) {
   useEffect(() => window.scrollTo({ top: 0, left: 0 }), []);
 
@@ -473,6 +478,28 @@ function LogosComponent(props) {
           </div>
           <div className="img-360">
             <img className="logos-img logos-img-right" src={Picb92360} alt="" />
+          </div>
+        </div>
+        <div className="new-example">
+          <Example first="Example of a logo card for “Orbach” -" />
+        </div>
+        <div className="logos-two-pictures">
+          <div>
+            <img className="logos-img logos-img-left" src={Logo11} alt="" />
+          </div>
+          <div>
+            <img className="logos-img logos-img-right" src={Logo12} alt="" />
+          </div>
+        </div>
+        <div className="new-example">
+          <Example first="  ‏Logo for a fresh fish store - Sea to table" />
+        </div>
+        <div className="logos-two-pictures">
+          <div>
+            <img className="logos-img logos-img-left" src={Logo21} alt="" />
+          </div>
+          <div>
+            <img className="logos-img logos-img-right" src={Logo22} alt="" />
           </div>
         </div>
       </div>

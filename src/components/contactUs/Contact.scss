@@ -1,4 +1,5 @@
 .contact-container {
+  position: relative;
   .contact-box {
     padding-top: 85px;
     h2 {
@@ -42,7 +43,7 @@
     margin: 0;
     margin: 0 160px;
     margin-top: 90px;
-    padding-bottom: 20px;
+    padding-bottom: 45px;
     font-family: "Roc Grotesk 300";
     font-size: 16px;
     line-height: 27px;
@@ -59,6 +60,16 @@
       text-decoration: underline;
       cursor: pointer;
     }
+  }
+  .social-links {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Roc Grotesk 300";
+    font-size: 15px;
   }
 }
 
@@ -105,6 +116,9 @@
         width: 14px;
         height: 14px;
       }
+    }
+    .social-links {
+      bottom: 20px;
     }
   }
 }
@@ -240,7 +254,7 @@
       p {
         margin: 0 0;
         margin-top: 70px;
-        padding-bottom: 20px;
+        padding-bottom: 43px;
         font-size: 14px;
         line-height: 19px;
         justify-content: center;

@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 
 function Service(props) {
-    if(props.img !== 0) {
-        return (
-            <Link className='service' to={props.link}>
-                <img src={props.img} alt="" />
-                <h1>{props.name}</h1>
-                <div>{props.description}</div>
-            </Link>
-        );
-    }
+  if (props.img !== 0) {
+    return (
+      <Link className="service" to={props.link}>
+        <img src={props.img} alt="" />
+        <h1>{props.name}</h1>
+        <div>{props.description}</div>
+      </Link>
+    );
+  }
 }
 
 export default Service;

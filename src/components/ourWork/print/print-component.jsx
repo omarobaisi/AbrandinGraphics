@@ -35,6 +35,8 @@ import HasbaraPost2430 from "./img-3/iPhone/430w/Pic 2.webp";
 import HasbaraPost2390 from "./img-3/iPhone/390w/Pic 2.webp";
 import HasbaraPost2360 from "./img-3/Android/Pic 2.webp";
 
+import printPost from "./img-3/printPost.jpg";
+
 import Button from "../../button/button2/button2-component";
 import Header from "../header/workHeader-component";
 import Example from "../example/workExample-component";
@@ -50,7 +52,7 @@ function PrintComponent(props) {
 
   return (
     <div className="prints">
-      <Header header="Prints" des="Business cards, books, notebooks, etc." />
+      <Header header="Print" des="Business cards, books, notebooks, etc." />
       <div className="print-examples">
         <Example
           first="Example of a business card for “Coach”."
@@ -157,6 +159,13 @@ function PrintComponent(props) {
           <div className="img-360">
             <img className="print-hasbara" src={HasbaraPost2360} alt="" />
           </div>
+        </div>
+      </div>
+
+      <Example first="An envelope for Dr. Yael Tanenbaum-Peleg, a specialist in child neurology and child development." />
+      <div className="print-pictures">
+        <div>
+          <img className="print-post" src={printPost} alt="" />
         </div>
       </div>
       <div className="work-button">

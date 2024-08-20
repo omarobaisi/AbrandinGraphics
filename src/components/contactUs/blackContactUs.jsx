@@ -12,7 +12,7 @@ import c834 from "./img/Tablet/834w/c.png";
 import c430 from "./img/iPhone/430w/c.png";
 import c390 from "./img/iPhone/390w/c.png";
 import c360 from "./img/Android/c.png";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const ContactUs = () => {
   const sendEmail = (e) => {};
@@ -213,6 +213,47 @@ const ContactUs = () => {
             </div>
           </p>
         </div>
+      </div>
+      <div
+        className="social-links"
+        // style={{
+        //   position: "absolute",
+        //   bottom: "20px",
+        //   color: "white",
+        //   width: "100%",
+        //   display: "flex",
+        //   justifyContent: "center",
+        //   gap: "20px",
+        //   fontFamily: "Roc Grotesk 300",
+        //   fontSize: "15px",
+        // }}
+      >
+        <Link
+          style={{
+            color: "#fff",
+          }}
+          to={"https://www.instagram.com/abrandingraphics/"}
+        >
+          Instagram
+        </Link>
+        {"|"}
+        <Link
+          style={{
+            color: "#fff",
+          }}
+          to={"https://www.facebook.com/profile.php?id=100064328996620"}
+        >
+          Facebook
+        </Link>
+        {"|"}
+        <Link
+          style={{
+            color: "#fff",
+          }}
+          to={"https://www.linkedin.com/company/abrandingraphics/"}
+        >
+          LinkedIn
+        </Link>
       </div>
     </div>
   );

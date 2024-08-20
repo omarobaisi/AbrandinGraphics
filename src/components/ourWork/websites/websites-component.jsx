@@ -26,6 +26,8 @@ import pic2360 from "./img-2/Android/Hompage.webp";
 
 import page1 from "./img-2/page1.png";
 import page2 from "./img-2/page2.png";
+import page3 from "./img-2/page3.jpg";
+import page4 from "./img-2/page4.jpg";
 
 import Button from "../../button/button2/button2-component";
 import Header from "../header/workHeader-component";
@@ -123,6 +125,23 @@ function WebsitesComponent(props) {
         </div>
         <div>
           <img className="website-page2" src={page2} alt="" />
+        </div>
+      </div>
+
+      <Example first="An example of website for Dr. Yael Tanenbaum-Peleg, a specialist in child neurology and child development." />
+      <div className="website-pictures">
+        <div>
+          <img className="website-page3" src={page3} alt="" />
+        </div>
+      </div>
+
+      <Example
+        first="An example of website for Shababeek"
+        second="The company specializes in the production of windows for conservation buildings, Ironing and carpentry."
+      />
+      <div className="website-pictures">
+        <div>
+          <img className="website-page3" src={page4} alt="" />
         </div>
       </div>
 

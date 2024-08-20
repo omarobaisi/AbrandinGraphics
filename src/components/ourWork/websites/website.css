@@ -46,6 +46,9 @@
   width: 307.576px;
   height: 1168px;
 }
+.website-page3 {
+  width: 990px;
+}
 
 /* MacBook Pro 16 */
 @media (max-width: 1728px) {
@@ -60,6 +63,9 @@
     width: 818.39px;
     height: 1800.19px;
     padding-top: 0rem;
+  }
+  .website-page3 {
+    width: 818.39px;
   }
 }
 
@@ -87,6 +93,9 @@
   .website-page2 {
     width: 291.512px;
     height: 1107px;
+  }
+  .website-page3 {
+    width: 681.99px;
   }
 }
 
@@ -166,6 +175,9 @@
     width: 240.002px;
     height: 911.393px;
   }
+  .website-page3 {
+    width: 533.52px;
+  }
 }
 
 /* IPad Pro 11 */
@@ -221,6 +233,9 @@
   .website-page2 {
     width: 239px;
     height: 907.587px;
+  }
+  .website-page3 {
+    width: 305px;
   }
 }
 
