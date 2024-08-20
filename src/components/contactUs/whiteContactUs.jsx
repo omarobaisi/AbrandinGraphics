@@ -175,71 +175,71 @@ const ContactUs = () => {
         </div>
         <div className="img-430">
           <p>
-            <div>
-              <img src={c430} alt="" /> 2022 A dev. All rights reserved.
-            </div>
             <div
               className="contact-privacy"
               onClick={() => navigate("/accessibility-statement")}
             >
               Privacy & Terms
+            </div>
+            <div>
+              <img src={c430} alt="" /> 2022 A dev. All rights reserved.
             </div>
           </p>
         </div>
         <div className="img-390">
           <p>
-            <div>
-              <img src={c390} alt="" /> 2022 A dev. All rights reserved.
-            </div>
             <div
               className="contact-privacy"
               onClick={() => navigate("/accessibility-statement")}
             >
               Privacy & Terms
+            </div>
+            <div>
+              <img src={c390} alt="" /> 2022 A dev. All rights reserved.
             </div>
           </p>
         </div>
         <div className="img-360">
           <p>
-            <div>
-              <img src={c360} alt="" /> 2022 A dev. All rights reserved.
-            </div>
             <div
               className="contact-privacy"
               onClick={() => navigate("/accessibility-statement")}
             >
               Privacy & Terms
             </div>
+            <div>
+              <img src={c360} alt="" /> 2022 A dev. All rights reserved.
+            </div>
           </p>
         </div>
       </div>
       <div className="social-links">
-        <Link
+        <a
           style={{
             color: "black",
           }}
-          to={"https://www.instagram.com/abrandingraphics/"}
+          href={"https://www.instagram.com/abrandingraphics/"}
         >
           Instagram
-        </Link>
+        </a>
         {"|"}
-        <Link
+        <a
           style={{
             color: "black",
           }}
-          to={"https://www.facebook.com/profile.php?id=100064328996620"}
+          href={"https://www.facebook.com/profile.php?id=100064328996620"}
         >
           Facebook
-        </Link>
+        </a>
         {"|"}
-        <Link
+        <a
           style={{
             color: "black",
           }}
-          to={"https://www.linkedin.com/company/abrandingraphics/"}
+          href={"https://www.linkedin.com/company/abrandingraphics/"}
         >
           LinkedIn
-        </Link>
+        </a>
       </div>
     </div>
   );

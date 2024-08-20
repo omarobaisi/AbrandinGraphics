@@ -253,20 +253,23 @@
       text-align: center;
       p {
         margin: 0 0;
-        margin-top: 70px;
-        padding-bottom: 43px;
+        margin-top: 160px;
+        padding-bottom: 20px;
         font-size: 14px;
         line-height: 19px;
         justify-content: center;
         display: flex;
         flex-direction: column;
-        gap: 6px;
+        gap: 25px;
         img {
           width: 11px;
           height: 11px;
           margin-bottom: 2px;
         }
       }
+    }
+    .social-links {
+      bottom: 140px;
     }
   }
 }

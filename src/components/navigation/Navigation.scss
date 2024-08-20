@@ -165,23 +165,25 @@
   .link {
     font-size: 14px;
     line-height: 16px;
+    text-decoration: none;
   }
   .active-link {
     font-size: 14px;
     line-height: 16px;
+    text-decoration: none;
   }
   .nav-icon-wrapper {
     top: 30px;
     right: 51px;
   }
   .options {
-    height: 382px !important;
+    height: 532px !important;
     top: 68px;
     width: calc(100vw - 104px);
     height: 627px;
     margin-left: 52px;
-    gap: 12px;
-    padding-top: 15px;
+    gap: 22.5px;
+    padding-top: 30px;
   }
 }
 

@@ -176,84 +176,71 @@ const ContactUs = () => {
         </div>
         <div className="img-430">
           <p>
-            <div>
-              <img src={c430} alt="" /> 2022 A dev. All rights reserved.
-            </div>
             <div
               className="contact-privacy"
               onClick={() => navigate("/accessibility-statement")}
             >
               Privacy & Terms
+            </div>
+            <div>
+              <img src={c430} alt="" /> 2022 A dev. All rights reserved.
             </div>
           </p>
         </div>
         <div className="img-390">
           <p>
-            <div>
-              <img src={c390} alt="" /> 2022 A dev. All rights reserved.
-            </div>
             <div
               className="contact-privacy"
               onClick={() => navigate("/accessibility-statement")}
             >
               Privacy & Terms
+            </div>
+            <div>
+              <img src={c390} alt="" /> 2022 A dev. All rights reserved.
             </div>
           </p>
         </div>
         <div className="img-360">
           <p>
-            <div>
-              <img src={c360} alt="" /> 2022 A dev. All rights reserved.
-            </div>
             <div
               className="contact-privacy"
               onClick={() => navigate("/accessibility-statement")}
             >
               Privacy & Terms
             </div>
+            <div>
+              <img src={c360} alt="" /> 2022 A dev. All rights reserved.
+            </div>
           </p>
         </div>
       </div>
-      <div
-        className="social-links"
-        // style={{
-        //   position: "absolute",
-        //   bottom: "20px",
-        //   color: "white",
-        //   width: "100%",
-        //   display: "flex",
-        //   justifyContent: "center",
-        //   gap: "20px",
-        //   fontFamily: "Roc Grotesk 300",
-        //   fontSize: "15px",
-        // }}
-      >
-        <Link
+      <div className="social-links">
+        <a
           style={{
             color: "#fff",
           }}
-          to={"https://www.instagram.com/abrandingraphics/"}
+          href={"https://www.instagram.com/abrandingraphics/"}
         >
           Instagram
-        </Link>
+        </a>
         {"|"}
-        <Link
+        <a
           style={{
             color: "#fff",
           }}
-          to={"https://www.facebook.com/profile.php?id=100064328996620"}
+          href={"https://www.facebook.com/profile.php?id=100064328996620"}
         >
           Facebook
-        </Link>
+        </a>
         {"|"}
-        <Link
+        <a
           style={{
             color: "#fff",
           }}
-          to={"https://www.linkedin.com/company/abrandingraphics/"}
+          href={"https://www.linkedin.com/company/abrandingraphics/"}
         >
           LinkedIn
-        </Link>
+        </a>
       </div>
     </div>
   );

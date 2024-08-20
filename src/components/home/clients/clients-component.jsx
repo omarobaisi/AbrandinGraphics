@@ -13,6 +13,7 @@ const c10 = require("./img/c10.png");
 const c11 = require("./img/c11.png");
 const c12 = require("./img/c12.png");
 const c13 = require("./img/c13.png");
+const c14 = require("./img/c14.png");
 
 const Clients = () => {
   const sliderAnimation = function (speedPixel, repeatEveryMSec) {
@@ -100,6 +101,10 @@ const Clients = () => {
     {
       name: "c13",
       desktop: c13,
+    },
+    {
+      name: "c14",
+      desktop: c14,
     },
   ];
 

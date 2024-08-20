@@ -481,7 +481,10 @@ function LogosComponent(props) {
           </div>
         </div>
         <div className="new-example">
-          <Example first="Example of a logo card for “Orbach” -" />
+          <Example
+            first="Logo for a Gynaecologist"
+            second="who also specializes in Fertility"
+          />
         </div>
         <div className="logos-two-pictures">
           <div>
@@ -492,7 +495,7 @@ function LogosComponent(props) {
           </div>
         </div>
         <div className="new-example">
-          <Example first="  ‏Logo for a fresh fish store - Sea to table" />
+          <Example first="Logo for a fresh fish store - Sea to table" />
         </div>
         <div className="logos-two-pictures">
           <div>
