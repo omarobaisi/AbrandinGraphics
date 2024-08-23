@@ -18,8 +18,8 @@ function Header(props) {
                 <img src={stickerGIF} alt="" />
               </div>
             </div>
-            <div>branding & graphics</div>
-            <div>design studio</div>
+            <div>graphic design</div>
+            <div>studio</div>
           </div>
           <div className="header-button">
             <Button text={"contact us"} work={scroll} />

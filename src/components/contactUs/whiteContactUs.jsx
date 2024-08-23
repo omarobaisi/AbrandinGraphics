@@ -84,7 +84,7 @@ const ContactUs = () => {
       <div onClick={() => navigate("/accessibility-statement")}>
         <div className="img-1920">
           <p>
-            <div>
+            <div className="copyright">
               <img src={c1920} alt="" /> 2022 A dev. All rights reserved.
             </div>
             <div
@@ -97,7 +97,7 @@ const ContactUs = () => {
         </div>
         <div className="img-1728">
           <p>
-            <div>
+            <div className="ccopyright">
               <img src={c1728} alt="" /> 2022 A dev. All rights reserved.
             </div>
             <div
@@ -110,7 +110,7 @@ const ContactUs = () => {
         </div>
         <div className="img-1512">
           <p>
-            <div>
+            <div className="copyright">
               <img src={c1512} alt="" /> 2022 A dev. All rights reserved.
             </div>
             <div
@@ -123,7 +123,7 @@ const ContactUs = () => {
         </div>
         <div className="img-1440">
           <p>
-            <div>
+            <div className="copyright">
               <img src={c1440} alt="" /> 2022 A dev. All rights reserved.
             </div>
             <div
@@ -136,7 +136,7 @@ const ContactUs = () => {
         </div>
         <div className="img-1280">
           <p>
-            <div>
+            <div className="copyright">
               <img src={c1280} alt="" /> 2022 A dev. All rights reserved.
             </div>
             <div
@@ -149,7 +149,7 @@ const ContactUs = () => {
         </div>
         <div className="img-1024">
           <p>
-            <div>
+            <div className="copyright">
               <img src={c1024} alt="" /> 2022 A dev. All rights reserved.
             </div>
             <div
@@ -162,7 +162,7 @@ const ContactUs = () => {
         </div>
         <div className="img-834">
           <p>
-            <div>
+            <div className="copyright">
               <img src={c834} alt="" /> 2022 A dev. All rights reserved.
             </div>
             <div
@@ -181,7 +181,7 @@ const ContactUs = () => {
             >
               Privacy & Terms
             </div>
-            <div>
+            <div className="copyright">
               <img src={c430} alt="" /> 2022 A dev. All rights reserved.
             </div>
           </p>
@@ -194,7 +194,7 @@ const ContactUs = () => {
             >
               Privacy & Terms
             </div>
-            <div>
+            <div className="copyright">
               <img src={c390} alt="" /> 2022 A dev. All rights reserved.
             </div>
           </p>
@@ -207,7 +207,7 @@ const ContactUs = () => {
             >
               Privacy & Terms
             </div>
-            <div>
+            <div className="copyright">
               <img src={c360} alt="" /> 2022 A dev. All rights reserved.
             </div>
           </p>
