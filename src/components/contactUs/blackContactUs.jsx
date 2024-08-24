@@ -24,9 +24,9 @@ const ContactUs = () => {
         <h2>
           <a
             className="black-contact-link"
-            href="mailto:aviad@abrandingraphics.com"
+            href="mailto:aviad@agraphicsltd.com"
           >
-            aviad@abrandingraphics.com
+            aviad@agraphicsltd.com
           </a>
         </h2>
         <h2>
@@ -45,7 +45,7 @@ const ContactUs = () => {
           </a>
         </h2>
         <form
-          action="https://formsubmit.co/aviad@abrandingraphics.com"
+          action="https://formsubmit.co/aviad@agraphicsltd.com"
           method="POST"
           className="contact-form black-contact-form"
         >
@@ -218,10 +218,11 @@ const ContactUs = () => {
           style={{
             color: "#fff",
           }}
-          href={"https://www.instagram.com/abrandingraphics/"}
+          href={"https://www.instagram.com/agraphicsltd/"}
         >
           Instagram
         </a>
+        {"|"}
         <a
           style={{
             color: "#fff",

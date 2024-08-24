@@ -62,28 +62,10 @@
 @media (max-width: 750px) {
   .navbar {
     .navbar-logo {
-      margin-left: 53px;
+      margin-left: 25px;
       width: 143px;
       height: 27px;
       top: 30px;
-    }
-  }
-}
-
-// Iphone 14
-@media (max-width: 390px) {
-  .navbar {
-    .navbar-logo {
-      margin-left: 34px;
-    }
-  }
-}
-
-// Android Large
-@media (max-width: 360px) {
-  .navbar {
-    .navbar-logo {
-      margin-left: 18px;
     }
   }
 }

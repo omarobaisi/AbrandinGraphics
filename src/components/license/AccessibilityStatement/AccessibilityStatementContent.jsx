@@ -169,7 +169,7 @@ function AccessibilityStatementContent(props) {
         <div>רכז נגישות:</div>
         <div>אביעד</div>
         <div>0523153355</div>
-        <div>aviad@abrandingraphics.com</div>
+        <div>aviad@agraphicsltd.com</div>
       </p>
       <p>
         <div>תאריך עדכון הצהרת נגישות - 4.2.2024</div>
