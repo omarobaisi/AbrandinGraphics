@@ -22,11 +22,8 @@ const ContactUs = () => {
     <div className="contact-container white-contact-container">
       <div className="contact-box white-contact-box">
         <h2>
-          <a
-            className="white-contact-link"
-            href="mailto:aviad@agraphicsltd.com"
-          >
-            aviad@agraphicsltd.com
+          <a className="white-contact-link" href="mailto:Info@agraphicsltd.com">
+            Info@agraphicsltd.com
           </a>
         </h2>
         <h2>
@@ -45,7 +42,7 @@ const ContactUs = () => {
           </a>
         </h2>
         <form
-          action="https://formsubmit.co/aviad@agraphicsltd.com"
+          action="https://formsubmit.co/Info@agraphicsltd.com"
           method="POST"
           className="contact-form white-contact-form"
         >
